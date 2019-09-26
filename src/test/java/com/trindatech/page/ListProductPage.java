@@ -1,13 +1,12 @@
 package com.trindatech.page;
 
-import org.openqa.selenium.By;
+import static com.trindatech.core.DriverFactory.getDriver;
 
-import com.trindatech.core.DriverFactory;
+import org.openqa.selenium.By;
 
 public class ListProductPage {
 
 	public String getQuantityResult() {
-		return DriverFactory.getDriver().findElement(By.className("quantity-results")).getText();
+		return getDriver().findElement(By.className("quantity-results")).getText();
 	}
-
 }

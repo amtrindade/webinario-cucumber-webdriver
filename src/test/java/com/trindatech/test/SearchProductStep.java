@@ -28,4 +28,5 @@ public class SearchProductStep {
 	public void produtos_que_se_enquadram_nesta_pesquisa_são_exibidos(int numberProducts) {
 	    assertEquals(numberProducts +" resultados", list.getQuantityResult());
 	}
+	
 }
