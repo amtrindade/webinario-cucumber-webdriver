@@ -12,15 +12,15 @@ Funcionalidade: Compras no Mercado Livre
 		Então <quantity> produtos que se enquadram nesta pesquisa são exibidos
 		
 		Cenários: 
-		|product					|quantity|
-		|'iPhone 11'				|32|
-		|'dvd rock in rio 30 anos'	|51|
-		|'samsung galaxy s11'		|100|
+		|product							|quantity	|
+		|'iPhone 12 8gb'					|57			|
+		|'dvd rock in rio 30 anos'			|49			|
+		|'Xiaomi Mi 9 Lite Dual SIM 128 GB'	|95			|
 		
 	Cenário: Adicionar produto ao carrinho
 		Dado que estou acessando a tela de pesquisa de produtos
-			E realizo uma pesquisa pelo termo 'iPhone 11'
+			E realizo uma pesquisa pelo termo 'iPhone 12 8gb'
 		Quando seleciono o primeiro produto listado
 			E adiciono o produto ao carrinho
-		Então devo ser direcionado para tela de login	
+		Então devo ser direcionado para tela de login
 	

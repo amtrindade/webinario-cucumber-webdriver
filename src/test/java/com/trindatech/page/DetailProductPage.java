@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 public class DetailProductPage {
 
 	public void addCart() {
-		getDriver().findElement(By.xpath("//*[@value='Adicionar ao carrinho']")).click();
+		getDriver().findElement(By.xpath("//*[@class='andes-button andes-button--quiet']")).click();
 	}
 	
 }

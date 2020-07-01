@@ -47,5 +47,4 @@ public class SearchProductStep {
 	public void devo_ser_direcionado_para_tela_de_login() {
 	    assertEquals("Olá! Para adicionar ao carrinho, acesse a sua conta", login.getTitle());
 	}
-	
 }
