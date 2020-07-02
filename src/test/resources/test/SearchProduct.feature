@@ -15,7 +15,7 @@ Funcionalidade: Compras no Mercado Livre
 		|product							|quantity	|
 		|'iPhone 12 8gb'					|57			|
 		|'dvd rock in rio 30 anos'			|49			|
-		|'Xiaomi Mi 9 Lite Dual SIM 128 GB'	|95			|
+		|'Xiaomi Mi 9 Lite Dual SIM 128 GB'	|98			|
 		
 	Cenário: Adicionar produto ao carrinho
 		Dado que estou acessando a tela de pesquisa de produtos
