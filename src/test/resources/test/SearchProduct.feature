@@ -23,4 +23,5 @@ Funcionalidade: Compras no Mercado Livre
 		Quando seleciono o primeiro produto listado
 			E adiciono o produto ao carrinho
 		Então devo ser direcionado para tela de login
+
 	
